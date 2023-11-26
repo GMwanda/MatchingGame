@@ -49,4 +49,4 @@ python main.py
 
 ## Author
 
-[George Josiah]
+George Josiah
