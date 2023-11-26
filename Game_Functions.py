@@ -15,7 +15,7 @@ def draw_backgrounds(screen, BLACK, GREY, WHITE, WIDTH, HEIGHT, title_font, scor
     small_font = pygame.font.Font("freesansbold.ttf", 18)
     restart_text = small_font.render("Restart", True, WHITE)
     screen.blit(restart_text, (18, 520))
-    score_text = small_font.render(f"Current Score: {score}", True, WHITE)
+    score_text = small_font.render(f"Number of Turns: {score}", True, WHITE)
     screen.blit(score_text, (350, 520))
     best_score_text = small_font.render(f"Best Score: {best_score}", True, WHITE)
     screen.blit(best_score_text, (350, 555))
